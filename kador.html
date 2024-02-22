@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User login</title>
+</head>
+
+<body>
+    <div class="container">
+       <div class="mainform">
+        <h1>User Data</h1>
+        <div class="information">
+            <div class="data">
+              <h1 class="name">Name:  MD ALI KADOR</h1>
+           <h1 class="fatherName">Father Name:  MD ABUL HOSSAIN</h1>
+           <h1 class="motherName">Mother Name:  MST JORINA KHATUN </h1>
+           <h1 class="age">Date of birth:  06 OCT 1976</h1>
+           <h1 class="passport">Passport Number:  A04279673</h1>
+           <h1 class="Phone">Phone:   +8801754739264</h1>
+           <h1 class="link">Get your Visa to:</h1>
+           <a class="button" href="https://drive.google.com/uc?id=1L3K_Q1cI6-QnIesm1ircy8vCv__TO0l_" >Visa</a>
+        </div>
+        <div class="photo">
+         <img src="https://drive.google.com/uc?id=1qE4hEoOungZhZW1Q-LgMM8CdtsY8RO-B" alt="">
+        </div>
+        </div>
+       </div>
+    </div>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: rgb(211, 22, 154);
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .button {
+            cursor: pointer;
+            background: rgb(211, 22, 154);
+            color: white;
+            padding: 12px;
+            font-family: arial;
+            outline: none;
+            border: none;
+            font-size: 18px;
+            display: block;
+            margin: 10px 0px;
+            text-align: center;
+            width: 123px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: .3s;
+        }
+        .button:hover{
+            background: #504c4c;
+        
+        }
+        .mainform {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 750px;
+        }
+        .mainform h1{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .information {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .information h1 {
+            font-size: 18px;
+            font-family: arial;
+        }
+        
+        .information h1 {
+            text-align: left;
+            margin: 10px 0px;
+        }
+        .photo {
+            width: 200px;
+        }
+        
+        .photo img {
+            width: 100%;
+        }
+    </style>
+   
+</body>
+</html>

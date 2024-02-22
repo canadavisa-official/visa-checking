@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="form_container">
+
+                <h1>Passport Login</h1>
+                <input type="text" id="passport" placeholder="Enter your Passport">
+                <button id="click" onclick="redirect()">Login</button>
+
+        </div>
+        </div>
+    </div>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: rgb(211, 22, 154);
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .form {
+            background: #fff;
+            padding: 30px;
+            text-align: center;
+            min-height: 187px;
+        }
+        
+      
+        
+        input {
+            display: block;
+            margin: 16px;
+            padding: 12px;
+            font-family: arial;
+            outline: none;
+            border: none;
+            font-size: 18px;
+            width: 90%;
+            background: #ddd;
+        }
+        
+        h1 {
+            text-align: center;
+            color: black;
+            font-family: arial;
+            font-size: 43px;
+        }
+        button {
+            cursor: pointer;
+            background: rgb(211, 22, 154);
+            color: white;
+            display: block;
+            margin: 16px;
+            padding: 12px;
+            font-family: arial;
+            outline: none;
+            border: none;
+            font-size: 18px;
+            width: 90%;
+        }
+
+    </style>
+    <script>
+        
+        function redirect(){
+         var test =  document.querySelector('#passport');
+                    if(test.value == "EF0218614"){
+                     window.location.href="amin.html"
+                }      
+                   else if(test.value == "A00727349"){
+                     window.location.href="aminur.html"
+                }
+                          else if(test.value == "EK0583319"){
+                     window.location.href="hanan.html"
+                } 
+                      else if(test.value == "A12647090"){
+                     window.location.href="imran_hossain.html"
+                }  
+                                                                                                                               
+                       else if(test.value == "EH0579097"){
+                     window.location.href="ismail2.html"
+                }   
+                      else if(test.value == "A04279673"){
+                     window.location.href="kador.html"
+                }   
+                      else if(test.value == "EJ0604994"){
+                     window.location.href="mehedi.html"
+                }  
+                             else if(test.value == "B00030067"){
+                     window.location.href="mohidul.html"
+                }   
+                                   else if(test.value == "EJ0846527"){
+                     window.location.href="rajib.html"
+                }     
+                                          else if(test.value == "A07049942"){
+                     window.location.href="rasel3.html"
+                }   
+                                              
+                                          else if(test.value == "A07080315"){
+                     window.location.href="sakib.html"
+                }       
+                                              else if(test.value == "B00145555"){
+                     window.location.href="selim_rega.html"
+                }    
+                                                    else if(test.value == "EK0596742"){
+                     window.location.href="sahadat.html"
+                }     
+                                                         else if(test.value == "EL0759340"){
+                     window.location.href="tarek.html"
+                }        
+         else{
+              alert("invalid Passport")
+         }
+
+           }
+        
+            
+          
+        
+      
+       
+    </script>
+</body>
+</html>
